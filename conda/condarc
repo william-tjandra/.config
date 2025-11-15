@@ -1,0 +1,4 @@
+envs_dirs:
+  - $HOME/.local/share/conda/envs
+pkgs_dirs:
+  - $HOME/.local/share/conda/pkgs

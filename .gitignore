@@ -1,0 +1,68 @@
+# Ignore macOS system files
+*.DS_Store
+
+# Ignore EVERYTHING by default
+*
+
+# Installation script
+!install.sh
+
+# Required for Git
+!.gitignore
+
+# --- Configuratio Packages (must include a trailing slash) ---
+
+# Root files
+!README.md
+
+# Colima
+!colima/
+!colima/default/
+!colima/default/colima.yaml
+
+# Docker
+!docker/
+!docker/config.json
+
+# Git
+!git/
+!git/**
+
+# Install scripts
+!install-scripts/
+!install-scripts/**
+
+# Karabiner
+!karabiner/
+!karabiner/karabiner.json
+
+# Npm
+!npm/
+!npm/npmrc
+
+# Python
+!conda/
+!conda/condarc
+
+# Ssh
+!ssh-mac/
+!ssh-mac/**
+
+# Vim
+!vim/
+!vim/**
+/vim/viminfo
+
+# Wezterm
+!wezterm/
+!wezterm/**
+
+# Zsh
+!zsh/
+!zsh/.zprofile
+!zsh/.p10k.zsh
+!zsh/.zshrc
+!zsh/rc.d/
+!zsh/rc.d/**
+!zsh-boot/
+!zsh-boot/.zshenv
